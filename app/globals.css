@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -9,6 +11,179 @@ html {
 }
 
 body {
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
   background-color: #0a0a0a;
   color: #ffffff;
+  overflow-x: hidden;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  
+  /* Navigation - hide menu */
+  nav > div:last-child {
+    display: none !important;
+  }
+
+  /* All Sections - reduce padding */
+  section {
+    padding: 40px 20px !important;
+  }
+
+  /* Section headings */
+  h2 {
+    font-size: 32px !important;
+    margin-bottom: 30px !important;
+  }
+
+  /* Hero Section */
+  #home > div:nth-child(3) {
+    grid-template-columns: 1fr !important;
+    text-align: center;
+  }
+
+  #home h1 {
+    font-size: 44px !important;
+    letter-spacing: -2px !important;
+  }
+
+  #home > div:nth-child(3) p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #home > div:nth-child(3) > div:first-child > div:last-child {
+    justify-content: center;
+  }
+
+  /* Hero Photo */
+  #home > div:nth-child(4) {
+    position: relative !important;
+    right: auto !important;
+    width: 100% !important;
+    height: 350px !important;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  /* ABOUT SECTION FIX */
+  #about > div {
+    display: block !important;
+  }
+
+  #about > div > div:first-child {
+    margin-bottom: 40px !important;
+  }
+
+  #about > div > div:last-child > div:first-child {
+    margin-bottom: 24px !important;
+  }
+
+  /* Stats Grid */
+  #about > div > div:last-child > div:last-child {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 12px !important;
+  }
+
+  /* Skills Section */
+  #skills > div > div:last-child {
+    display: block !important;
+  }
+
+  #skills > div > div:last-child > div {
+    margin-bottom: 20px !important;
+  }
+
+  /* Experience Cards */
+  .exp-card {
+    padding: 24px !important;
+    display: block !important;
+  }
+
+  .exp-card > div:first-child {
+    margin-bottom: 16px !important;
+  }
+
+  .exp-card > p {
+    margin-bottom: 16px !important;
+  }
+
+  .exp-card > div:last-child {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 12px !important;
+  }
+
+  /* Projects */
+  #projects .card {
+    display: block !important;
+  }
+
+  #projects .card > div:first-child {
+    height: 200px !important;
+    margin-bottom: 0 !important;
+  }
+
+  #projects .card > div:last-child {
+    padding: 24px !important;
+  }
+
+  /* Contact Section */
+  #contact h2 {
+    font-size: 28px !important;
+  }
+
+  #contact > div:last-child > div:last-child {
+    flex-direction: column !important;
+    gap: 12px !important;
+  }
+
+  #contact a {
+    width: 100%;
+    text-align: center;
+    display: flex !important;
+    justify-content: center;
+  }
+
+  /* Footer */
+  footer > div {
+    flex-direction: column !important;
+    gap: 16px !important;
+    text-align: center;
+  }
+
+  /* Hide scroll indicator */
+  #home > div:last-child {
+    display: none !important;
+  }
+
+  /* Smaller glow orbs */
+  .glow-orb {
+    width: 250px !important;
+    height: 250px !important;
+    opacity: 0.1 !important;
+  }
+
+  /* Buttons */
+  button {
+    padding: 14px 28px !important;
+    font-size: 12px !important;
+  }
+}
+
+/* Extra small phones */
+@media (max-width: 480px) {
+  #home h1 {
+    font-size: 36px !important;
+  }
+
+  h2 {
+    font-size: 28px !important;
+  }
+
+  #home > div:nth-child(4) {
+    height: 300px !important;
+  }
 }
