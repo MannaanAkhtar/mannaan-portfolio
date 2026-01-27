@@ -424,7 +424,7 @@ export default function Home() {
             <div style={{ display: 'flex', gap: '32px' }}>
               <a href="https://www.linkedin.com/in/mannaan-akhtar/" target="_blank" rel="noopener noreferrer" className="link-hover" style={{ fontSize: '13px', color: 'rgba(255,255,255,0.6)', textDecoration: 'none', textTransform: 'uppercase', letterSpacing: '1px' }}>LinkedIn</a>
               <a href="https://github.com/MannaanAkhtar" target="_blank" rel="noopener noreferrer" className="link-hover" style={{ fontSize: '13px', color: 'rgba(255,255,255,0.6)', textDecoration: 'none', textTransform: 'uppercase', letterSpacing: '1px' }}>GitHub</a>
-              <a href="mailto:mannaan.akhtar@gmail.com" className="link-hover" style={{ fontSize: '13px', color: 'rgba(255,255,255,0.6)', textDecoration: 'none', textTransform: 'uppercase', letterSpacing: '1px' }}>Email</a>
+              <a href="mailto:mannaan2002@gmail.com" className="link-hover" style={{ fontSize: '13px', color: 'rgba(255,255,255,0.6)', textDecoration: 'none', textTransform: 'uppercase', letterSpacing: '1px' }}>Email</a>
             </div>
           </div>
         </footer>
