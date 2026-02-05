@@ -194,7 +194,7 @@ export default function Home() {
         <span style={{ fontWeight: 300, fontStyle: 'italic' }}>Akhtar</span>
       </h1>
       <p style={{ fontSize: '18px', lineHeight: 1.8, color: 'rgba(255,255,255,0.7)', maxWidth: '500px', marginBottom: '40px' }}>
-        Operations professional based in <span style={{ color: '#F97316', fontWeight: 600 }}>Dubai</span> with a track record in campaign management, data analytics, and web development.
+        Operations professional with a track record in data analytics, campaign management, and web development.
       </p>
       <div style={{ display: 'flex', gap: '20px' }}>
         <button className="btn-primary" onClick={() => scrollTo('projects')} style={{ padding: '18px 40px', background: '#F97316', border: 'none', color: '#0a0a0a', fontSize: '13px', fontWeight: 700, letterSpacing: '2px', textTransform: 'uppercase', cursor: 'pointer' }}>
